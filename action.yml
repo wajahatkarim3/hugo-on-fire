@@ -4,10 +4,12 @@ description: "Build a Hugo site and then deploy it to Firebase Hosting"
 inputs:
   firebase_token:
     required: true
+  hugo_version:
+    required: true
 
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
     - ${{ inputs.firebase_token }}
-    - ${{ HUGO_VERSION 0.62.2 }}
+    - ${{ inputs.hugo_version }}
