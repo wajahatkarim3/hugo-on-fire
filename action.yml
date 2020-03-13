@@ -2,11 +2,11 @@ name: "Hugo To Firebase Action"
 description: "Build a Hugo site and then deploy it to Firebase Hosting"
 
 inputs:
-  firebase-token:
+  firebase_token:
     required: true
 
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ secrets.FIREBASE_TOKEN }}
+    - ${{ inputs.firebase_token }}
