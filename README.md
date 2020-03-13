@@ -34,6 +34,7 @@ jobs:
 
 # 📝 Add Firebase Token as Github Secret 
 You also need to add your Firebase Hosting's token as a Github Secret. You can get it using command `'firebase login:ci'` and then set it in Github Secrets as `FIREBASE_TOKEN` variable.
+![](https://raw.githubusercontent.com/wajahatkarim3/hugo-on-fire/master/GithubSecrets.png)
 
 # 🎯 Example Site
 I have created a simple example Hugo site available at [https://hugotofirebasedemo.web.app/](https://hugotofirebasedemo.web.app/). This site is created with [Hugo Hello Friend ng theme](https://github.com/rhazdon/hugo-theme-hello-friend-ng). You can see the workflow and this action integrated in the demo site repository at [https://github.com/wajahatkarim3/Hugo-On-Fire-Demo](https://github.com/wajahatkarim3/Hugo-On-Fire-Demo). 
