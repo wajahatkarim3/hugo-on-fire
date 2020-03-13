@@ -5,8 +5,6 @@ LABEL maintainer="Wajahat Karim (https://wajahatkarim.com)"
 # Get Hugo Version
 ARG HUGO_VERSION=0.49.2
 
-echo "Hugo version provided is " ${HUGO_VERSION}
-
 # Downloading & Installing Hugo & Firebase
 RUN set -x && \
     apk add --update --upgrade --no-cache wget ca-certificates && \
