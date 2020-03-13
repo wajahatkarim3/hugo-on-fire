@@ -10,3 +10,4 @@ runs:
   image: 'Dockerfile'
   args:
     - ${{ inputs.firebase_token }}
+    - ${{ HUGO_VERSION 0.62.2 }}
