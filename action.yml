@@ -3,8 +3,9 @@ description: "A Github action build a Hugo site and then deploy it to Firebase H
 author: "Wajahat Karim (https://wajahatkarim.com)"
 
 branding:
-  icon: 'fire'
+  icon: 'arrow-up-right'
   color: 'red'
+  label: 'Hugo On Fire'
 
 inputs:
   firebase_token:
