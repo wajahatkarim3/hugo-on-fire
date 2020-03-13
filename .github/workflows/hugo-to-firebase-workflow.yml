@@ -22,16 +22,10 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
-    - name: Testing Hugo & Firebase Token
-      run: 
-        echo Token is ${{ secrets.FIREBASE_TOKEN }}
-        echo Hugo provided is ${{ secrets.HUGO_VERSION }}
-
     # Fetch Hugo to Firebase docker image
     - uses: wajahatkarim3/HugoToFirebase-Demo@master
       env:
         FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-        HUGO_VERSION: ${{ secrets.HUGO_VERSION }}
 
     # Runs a single command using the runners shell
     # - name: Run a one-line script
