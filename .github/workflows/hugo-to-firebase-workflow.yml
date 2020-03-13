@@ -25,7 +25,7 @@ jobs:
     # Fetch Hugo to Firebase docker image
     - uses: wajahatkarim3/HugoToFirebase-Demo@master
       with:
-        firebase-token: ${{ secrets.FIREBASE_TOKEN }}
+        FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
 
     # Runs a single command using the runners shell
     # - name: Run a one-line script
