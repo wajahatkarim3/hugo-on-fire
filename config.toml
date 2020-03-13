@@ -141,4 +141,4 @@ disableHugoGeneratorInject = false
   [[menu.main]]
     identifier = "posts"
     name       = "Blog"
-    url        = "https://wajahatkarim.com"
+    url        = "/posts"
