@@ -9,4 +9,4 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ inputs.firebase-token }}
+    - ${{ secrets.FIREBASE_TOKEN }}
