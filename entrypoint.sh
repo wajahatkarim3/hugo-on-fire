@@ -4,7 +4,8 @@ hugo version
 
 # Get Firebase Token
 if [ -z "${FIREBASE_TOKEN}" ]; then
-    echo "FIREBASE_TOKEN is missing"
+    echo "FIREBASE_TOKEN is missing." /
+    echo "You can get it using command 'firebase login:ci' and then set it in Github Secrets as FIREBASE_TOKEN variable."
     exit 1
 fi
 
