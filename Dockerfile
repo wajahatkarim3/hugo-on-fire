@@ -3,9 +3,7 @@ FROM node:13.10-alpine
 LABEL maintainer="Wajahat Karim (https://wajahatkarim.com)"
 
 # Get Hugo Version
-if [ -z "${HUGO_VERSION}" ]; then
-    ENV HUGO_VERSION = 0.49.2
-fi
+ARG HUGO_VERSION=0.49.2
 
 # Downloading & Installing Hugo & Firebase
 RUN set -x && \
