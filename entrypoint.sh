@@ -12,6 +12,6 @@ fi
 # Generate hugo site
 hugo
 
-# Deply it on Firebase
+# Deploy it on Firebase
 firebase use --token "${FIREBASE_TOKEN}"
 firebase deploy --non-interactive --token "${FIREBASE_TOKEN}"
