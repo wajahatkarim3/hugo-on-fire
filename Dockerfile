@@ -19,7 +19,7 @@ RUN set -x && \
     apk del --purge wget && \
 
     # Install Firebase Tools
-    npm install -g firebase-tools
+    npm install -g firebase-tools@10.9.2
 
 # Start the building & deploying now
 ADD entrypoint.sh /entrypoint.sh
