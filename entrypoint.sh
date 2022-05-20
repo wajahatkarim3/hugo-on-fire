@@ -1,5 +1,6 @@
 # Displaying versions
 node -v
+firebase --version
 hugo version
 
 # Get Firebase Token
