@@ -3,7 +3,7 @@ FROM node:14.18.0-alpine
 LABEL maintainer="Wajahat Karim (https://wajahatkarim.com)"
 
 # Get Hugo Version
-ARG HUGO_VERSION=0.67.1
+ARG HUGO_VERSION=0.49.2
 
 # Downloading & Installing Hugo & Firebase
 RUN set -x && \
